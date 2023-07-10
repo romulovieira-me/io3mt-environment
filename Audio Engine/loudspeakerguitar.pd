@@ -1,0 +1,6 @@
+#N canvas 998 244 450 300 12;
+#X obj 10 110 dac~;
+#X obj 9 52 mrpeach/net/udpreceive~ 3000 2 239.255.255.250;
+#X text 115 9 Loudspeaker - Guitar;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
